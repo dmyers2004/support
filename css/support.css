@@ -1,0 +1,8 @@
+
+.details-display { width: 100%; height: 0px; overflow: hidden; background-color: white; border-radius: 10px; border: 1px #d8d8d8 solid; }
+.details-display ul li { list-style: none; }
+.details-display ul li label { display: inline-block; font-size: 14px; width: 100px; }
+.details-buttons { width: 100%; margin: 20px; }
+.ticket-list td.open { font-weight: bold; text-transform: capitalize; color: #ae3838; }
+.ticket-list td.in-progress { font-weight: bold; text-transform: capitalize; color: #4e4e82; }
+.ticket-list td.resolved { font-weight: bold; text-transform: capitalize; color: #52914d; }
