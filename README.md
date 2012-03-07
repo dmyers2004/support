@@ -16,9 +16,15 @@ be used with a status board.
 
 Visitors that need to create a ticket must supply 3 things: their name, the ticket title, and the ticket body. Their name, the ticket title, and the status of the request are public 
 so anyone that visits the support page can see them (the ticket creator is warned of this). The ticket body is never displayed again, even to the 
-person that created the ticket. Only admins can view this so that visitors can paste passwords or etc into this field.
+person that created the ticket. Only admins (which in this case is the IT department) can view this so that visitors can paste passwords or etc into this field.
 
 ## Installation
 
-It requires PyroCMS v2.1-dev. Download the zip file extract it and rename the main folder to "support". Either zip it and upload via PyroCMS' interface or 
+It requires PyroCMS v2.1-dev. Download the zip file, extract it, and rename the main folder to "support". Either zip it and upload via PyroCMS' interface or 
 drop the renamed folder into addons/default/modules or addons/shared_addons/modules.
+
+## Disclaimer
+
+I wrote this to use PyroCMS 2.1-dev as I wanted to get a little practice with streams_core. However streams_core wasn't finished so you'll 
+notice that not all calls use the streams api. Some database interaction is done via streams and some via support_tickets_m. If 
+you are concerned about functionality instead of code style then disregard this paragraph :)
