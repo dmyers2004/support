@@ -2,7 +2,7 @@
 
 * [Website](http://unruhdesigns.com/)
 * [Apache 2 License](http://www.apache.org/licenses/LICENSE-2.0.html)
-* Requirements: PyroCMS 2.1-dev
+* Requirements: PyroCMS 2.1-dev, jQuery in your theme
 * Version: 0.9.0
 
 ## Description
@@ -21,7 +21,7 @@ person that created the ticket. Only admins (which in this case is the IT depart
 ## Installation
 
 It requires PyroCMS v2.1-dev. Download the zip file, extract it, and rename the main folder to "support". Either zip it and upload via PyroCMS' interface or 
-drop the renamed folder into addons/default/modules or addons/shared_addons/modules.
+drop the renamed folder into addons/default/modules or addons/shared_addons/modules. It assumes that your theme includes jQuery.
 
 ## Disclaimer
 
